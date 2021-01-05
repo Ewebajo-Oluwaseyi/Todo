@@ -1,0 +1,35 @@
+.todo {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 1px #ccc doted;
+  text-align: center;
+  justify-content: space-around;
+}
+.completed {
+  text-decoration: line-through;
+}
+.delBtn {
+  display: flex;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+  float: right;
+}
+.delBtn:hover {
+  background: #666;
+}
+.chkBtn {
+  display: flex;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+  float: left;
+}
+.chkBtn:hover {
+  background: #666;
+}
